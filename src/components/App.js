@@ -5,7 +5,7 @@ import List from "./List";
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div style={{ width: "95%", margin: "0 auto" }}>
         <Navbar />
         <List />
       </div>
